@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+.counter-app {
+  box-sizing: border-box;
+  max-width: 400px;
+  min-height: 400px;
+  background-color: hsl(257, 4%, 65%);
+  margin-top: 30px;
+  margin-left: 27%;
+  padding: 10px;
+}
+.counter-app .count {
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 64px;
+  font-weight: 700;
+}
+.plus-btn {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin-left: 120px;
+  width: 16%;
+  font-size: 25px;
+  font-weight: 700;
+ 
+}
+.minus-btn {
+  border: none;
+  padding: 10px;
+  margin-left: 30px;
+  text-align: center;
+  width: 16%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container{
+  padding: 8px;
+margin: 30px 50px;
+}
+.container input{
+  width: 40px;
+  padding: 10px;
+}
+.reset-button{
+  font-size: 15px;
+  padding:5px;
+  margin-left: 35%;
+}
